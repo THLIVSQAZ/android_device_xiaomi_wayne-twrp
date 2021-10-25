@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_wayne.mk
+    $(LOCAL_DIR)/twrp_wayne.mk

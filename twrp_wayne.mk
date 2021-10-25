@@ -28,7 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     sys.usb.rmnet.func.name=rmnet_bam
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_wayne
+PRODUCT_NAME := twrp_wayne
 PRODUCT_DEVICE := wayne
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
