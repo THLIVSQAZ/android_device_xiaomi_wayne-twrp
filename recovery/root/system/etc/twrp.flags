@@ -1,7 +1,7 @@
 # mount point  fstype  device                             device2                flags
 
-/data          ext4    /dev/block/bootdevice/by-name/userdata                    flags=fileencryption=ice
-/data          f2fs    /dev/block/bootdevice/by-name/userdata                    flags=fileencryption=ice
+/data          ext4    /dev/block/bootdevice/by-name/userdata                    flags=encryptable=footer
+/data          f2fs    /dev/block/bootdevice/by-name/userdata                    flags=encryptable=footer
 /cache         ext4    /dev/block/bootdevice/by-name/cache
 /cache         ext4    /dev/block/bootdevice/by-name/cache
 /cust          ext4    /dev/block/bootdevice/by-name/cust                        flags=display="Cust"
